@@ -707,6 +707,48 @@ li {
   margin-bottom: 200px;
 }
 
+.official-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .titles-section {
   color: black;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.official-name,
+.titlement {
+  color: black;
+  text-align: center;
+}
+
+.official-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.official {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.official-img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.info {
+  margin-top: 10px;
 }
