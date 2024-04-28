@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
   color: white;
-  font-variation-settings: "slnt" 0;
+  font-variation-settings: 'slnt' 0;
 }
 
 body {
@@ -74,7 +74,7 @@ section {
 .nameofweb {
   font-weight: bolder;
   font-size: large;
-  margin-right: 160px;
+  margin-right: 360px;
 }
 
 .search {
@@ -89,7 +89,7 @@ section {
   margin-left: 10px;
 }
 
-input[type="text"] {
+input[type='text'] {
   padding: 10px;
   width: 200px;
   font-size: 12px;
@@ -99,7 +99,7 @@ input[type="text"] {
   color: black;
 }
 
-button[type="submit"] {
+button[type='submit'] {
   padding: 10px 20px;
   font-size: 12px;
   border: none;
@@ -110,7 +110,7 @@ button[type="submit"] {
   transition: background-color 0.3s ease;
 }
 
-button[type="submit"]:hover {
+button[type='submit']:hover {
   background-color: #9290c3;
 }
 
@@ -163,7 +163,7 @@ button[type="submit"]:hover {
   text-align: center;
   padding: 17px 20px;
   background-color: #222831;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .footer p {
@@ -350,22 +350,22 @@ li {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  background-image: url("../assets/img1.webp");
+  background-image: url('../assets/img1.webp');
   counter-increment: item;
   background-size: cover;
   background-position: center;
 }
 
 .carousel__slide:nth-child(2) {
-  background-image: url("../assets/img2.webp");
+  background-image: url('../assets/img2.webp');
 }
 
 .carousel__slide:nth-child(3) {
-  background-image: url("../assets/img3.webp");
+  background-image: url('../assets/img3.webp');
 }
 
 .carousel__slide:nth-child(4) {
-  background-image: url("../assets/img4.webp");
+  background-image: url('../assets/img4.webp');
 }
 
 .carousel__slide:before {
@@ -463,7 +463,7 @@ li {
 
 .carousel::before,
 .carousel::after {
-  content: "";
+  content: '';
   z-index: 1;
   background-color: #333;
   background-size: 1.5rem 1.5rem;
@@ -550,44 +550,39 @@ li {
   }
 }
 
+.img-docu {
+  width: 190px;
+  height: auto;
+}
+
 .img-services-content {
   width: 188px;
-  height: 188px;
+  height: auto;
   object-fit: cover;
-  object-position: 50% 50%;
-  margin-left: 300px;
-  margin-top: 100px;
-  margin-bottom: 10px;
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 
-.text-services-content {
-  font-size: 22px;
-  line-height: normal;
-  letter-spacing: 0em;
-  font-family: arial black, arial-w01-black, arial-w02-black, arial-w10 black, sans-serif;
+.text-document {
   color: black;
-  margin-left: 340px;
-  margin-bottom: 100px;
+  font-size: 2rem;
+  text-align: center;
 }
 
-.text-places-content {
-  font-size: 22px;
-  line-height: normal;
-  letter-spacing: 0em;
-  font-family: arial black, arial-w01-black, arial-w02-black, arial-w10 black, sans-serif;
-  color: black;
-  margin-left: 355px;
-  margin-bottom: 100px;
+.service-content {
+  display: flex;
+  justify-content: center;
 }
 
-.places-content {
-  margin-left: 300px;
-  margin-top: -432px;
+.img-services-content {
+  display: flex;
+  flex-direction: row;
+  margin-right: 600px;
 }
 
-.activities-content {
-  margin-left: 600px;
-  margin-top: -432px;
+.text-document,
+.img-docu {
+  margin-right: 100px;
 }
 
 .footer-talolong-logo {
@@ -606,38 +601,37 @@ li {
   font-size: 20px;
 }
 
-
 .footer-Talolong {
-  font-family: "DM Serif Display", serif;
+  font-family: 'DM Serif Display', serif;
   font-weight: 400;
   font-style: normal;
   margin-right: 1103px;
 }
 
 .footer-pTalolong {
-  font-family: "DM Serif Display", serif;
+  font-family: 'DM Serif Display', serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .footer-Hub {
-  font-family: "DM Serif Display", serif;
+  font-family: 'DM Serif Display', serif;
   font-weight: 400;
   font-style: normal;
   margin-right: 1175px;
 }
 
 .footer-pHub {
-  font-family: "DM Serif Display", serif;
+  font-family: 'DM Serif Display', serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .footer-first-letter {
-  font-family: "DM Serif Display", serif;
+  font-family: 'DM Serif Display', serif;
   font-weight: 400;
   font-style: normal;
-  color: #FF407D;
+  color: #ff407d;
 }
 
 .footer-rep-phil {
@@ -711,4 +705,8 @@ li {
   margin-left: 1050px;
   margin-top: -474px;
   margin-bottom: 200px;
+}
+
+.titles-section {
+  color: black;
 }
